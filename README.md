@@ -11,6 +11,7 @@
 * Find the product with high cosine similarity score with attributes preferred by the user
 * Use customer reviews to understand a particular seller's performance for a specific product in comparison to general trends for that category
 
+
 <img width="1037" alt="image" src="https://user-images.githubusercontent.com/12545194/143535148-b66b99fe-c289-498a-b910-079e9a504fe7.png">
 <img width="1034" alt="image" src="https://user-images.githubusercontent.com/12545194/143535195-2f4f0814-8c9d-4a08-81c2-bb65ef3bc029.png">
 <img width="1031" alt="image" src="https://user-images.githubusercontent.com/12545194/143535245-2912c565-b5a3-4f03-b44d-e72780f1c8f1.png">
