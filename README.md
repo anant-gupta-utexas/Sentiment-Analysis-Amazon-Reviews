@@ -1,19 +1,15 @@
 # Customer reviews on Amazon
 
 ## Problem Statement
-* Amazon sellers do not have in-depth analysis on the performance of their product
-* Amazon buyers cannot differentiate products based on multiple preferences
+* To provide Amazon sellers an in-depth analysis on the performance of their product
+* To recommend products based on product reviews to Amazon buyers based on multiple preferences
 
-## Steps - Product recommendation
+## Steps - Sentiment Analysis and Product recommendation
 * Scrape data from amazon.com
-* Use the data to create vectors of each product. These vectors should be mainly created using cutsomer reviews
-* Create user preference vector based on customer review
-* Find the product with high similarity score with product
-
-## Steps - Feedback for the Seller
-* Scrape data from amazon.com
-* Use the data to create vectors of customer reviews of each product. These should be created by sentimentent analyser. This is to understand the emotion associated with review.
-* Use customer reviews to understand seller's performance in-comparison to other sellers
+* Find the most important attributes for buyer as well as seller
+* Use the data to create feature vectors of each product. These vectors should be mainly created analyzing sentiment associated with each attribute in customer reviews
+* Find the product with high cosine similarity score with attributes preferred by the user
+* Use customer reviews to understand a particular seller's performance for a specific product in comparison to general trends for that category
 
 <img width="1037" alt="image" src="https://user-images.githubusercontent.com/12545194/143535148-b66b99fe-c289-498a-b910-079e9a504fe7.png">
 <img width="1034" alt="image" src="https://user-images.githubusercontent.com/12545194/143535195-2f4f0814-8c9d-4a08-81c2-bb65ef3bc029.png">
